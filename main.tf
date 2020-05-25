@@ -4,7 +4,7 @@ provider "azurerm" {
 }
 
 variable "prefix" {
-  default = "TF-CD"
+  default = "TF-CD-01"
 }
 
 resource "azurerm_resource_group" "main" {
